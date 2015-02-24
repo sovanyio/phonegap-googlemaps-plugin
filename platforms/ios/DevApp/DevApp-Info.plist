@@ -88,5 +88,18 @@
       <string>UIInterfaceOrientationPortraitUpsideDown</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
+    <key>FacebookAppID</key>
+    <string>408354752554969</string>
+    <key>FacebookDisplayName</key>
+    <string>ScreenRewards-app</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb4083547524969</string>
+        </array>
+      </dict>
+    </array>
   </dict>
 </plist>

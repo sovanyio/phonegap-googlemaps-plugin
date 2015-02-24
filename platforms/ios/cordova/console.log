@@ -1,0 +1,44 @@
+2015-02-23 17:16:44.824 DevApp[11848:132960] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/masashi/Library/Developer/CoreSimulator/Devices/2148ACB8-7273-46DD-A7B7-11BAD39D1970/data/Containers/Data/Application/D4BAF8BD-233C-4AF3-A9D5-4D7B17EB4A9C/Library/Cookies/Cookies.binarycookies
+2015-02-23 17:16:45.486 DevApp[11848:132960] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-23 17:16:45.487 DevApp[11848:132960] Multi-tasking -> Device: YES, App: YES
+2015-02-23 17:16:45.517 DevApp[11848:132960] Unlimited access to network resources
+2015-02-23 17:16:45.530 DevApp[11848:132960] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-23 17:16:46.270 DevApp[11848:132960] Init FacebookConnect Session
+2015-02-23 17:16:46.305 DevApp[11848:132960] [CDVTimer][facebookconnectplugin] 35.607994ms
+2015-02-23 17:16:46.306 DevApp[11848:132960] [CDVTimer][TotalPluginStartup] 36.022961ms
+2015-02-23 17:16:48.663 DevApp[11848:132960] Resetting plugins due to page load.
+2015-02-23 17:16:49.083 DevApp[11848:132960] Finished load of: file:///Users/masashi/Library/Developer/CoreSimulator/Devices/2148ACB8-7273-46DD-A7B7-11BAD39D1970/data/Containers/Bundle/Application/F4D45B14-15FD-4179-9094-53D2737B474D/DevApp.app/www/index.html
+2015-02-23 17:16:49.147 DevApp[11848:132960] This app uses phonegap-googlemaps-plugin version 1.2.4
+2015-02-23 17:16:49.774 DevApp[11848:132960] Google Maps SDK for iOS version: 1.9.13516.0
+2015-02-23 17:16:49.774 DevApp[11848:132960] New version of Google Maps SDK for iOS available: 1.9.14591.0
+2015-02-23 17:16:52.159 DevApp[11848:132960] THREAD WARNING: ['FacebookConnectPlugin'] took '88.590332' ms. Plugin should use a background thread.
+2015-02-23 17:21:10.260 DevApp[12255:135347] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/masashi/Library/Developer/CoreSimulator/Devices/2148ACB8-7273-46DD-A7B7-11BAD39D1970/data/Containers/Data/Application/E88C5597-EC11-4751-B684-8D1D4C77DA61/Library/Cookies/Cookies.binarycookies
+2015-02-23 17:21:10.363 DevApp[12255:135347] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-23 17:21:10.364 DevApp[12255:135347] Multi-tasking -> Device: YES, App: YES
+2015-02-23 17:21:10.366 DevApp[12255:135347] Unlimited access to network resources
+2015-02-23 17:21:10.368 DevApp[12255:135347] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-23 17:21:10.589 DevApp[12255:135347] Init FacebookConnect Session
+2015-02-23 17:21:10.594 DevApp[12255:135347] [CDVTimer][facebookconnectplugin] 5.046010ms
+2015-02-23 17:21:10.594 DevApp[12255:135347] [CDVTimer][TotalPluginStartup] 5.234003ms
+2015-02-23 17:21:10.693 DevApp[12255:135347] Resetting plugins due to page load.
+2015-02-23 17:21:10.763 DevApp[12255:135347] Finished load of: file:///Users/masashi/Library/Developer/CoreSimulator/Devices/2148ACB8-7273-46DD-A7B7-11BAD39D1970/data/Containers/Bundle/Application/6978F11A-D7E4-4C51-8AE6-D4BF246B5379/DevApp.app/www/index.html
+2015-02-23 17:21:10.813 DevApp[12255:135347] This app uses phonegap-googlemaps-plugin version 1.2.4
+2015-02-23 17:21:10.955 DevApp[12255:135347] Google Maps SDK for iOS version: 1.9.13516.0
+2015-02-23 17:21:10.956 DevApp[12255:135347] New version of Google Maps SDK for iOS available: 1.9.14591.0
+2015-02-23 17:21:16.323 DevApp[12255:135347] FBSDKLog: Cannot use the Facebook app or Safari to authorize, fb408354752554969 is not registered as a URL Scheme
+2015-02-23 17:21:16.526 DevApp[12255:135347] THREAD WARNING: ['FacebookConnectPlugin'] took '219.246826' ms. Plugin should use a background thread.
+2015-02-23 17:21:51.588 DevApp[12255:135568] Terminating since there is no system app.

@@ -18,6 +18,16 @@
                             "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
                             "count": 1
                         }
+                    ],
+                    "application": [
+                        {
+                            "xml": "<meta-data android:name=\"com.facebook.sdk.ApplicationId\" android:value=\"@string/fb_app_id\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:label=\"@string/fb_app_name\" android:name=\"com.facebook.LoginActivity\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" />",
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -45,7 +55,41 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"FacebookConnectPlugin\"><param name=\"android-package\" value=\"org.apache.cordova.facebook.ConnectPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://m.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://graph.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://api.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://*.fbcdn.net\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://*.akamaihd.net\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "res/values/facebookconnect.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<string name=\"fb_app_id\">408354752554969</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"fb_app_name\">ScreenRewards-app</string>",
                             "count": 1
                         }
                     ]
@@ -63,16 +107,15 @@
         "org.apache.cordova.console": {
             "PACKAGE_NAME": "com.example.myapp"
         },
-        "plugin.google.maps.markercluster": {
-            "PACKAGE_NAME": "com.example.myapp"
-        },
         "com.google.playservices": {
             "PACKAGE_NAME": "com.example.myapp"
         },
         "com.googlemaps.ios": {
             "PACKAGE_NAME": "com.example.myapp"
         },
-        "org.apache.cordova.splashscreen": {
+        "com.phonegap.plugins.facebookconnect": {
+            "APP_ID": "408354752554969",
+            "APP_NAME": "ScreenRewards-app",
             "PACKAGE_NAME": "com.example.myapp"
         }
     },

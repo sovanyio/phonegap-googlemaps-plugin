@@ -11,38 +11,20 @@
     <script type="text/javascript" src="js/async.js"></script>
     <script type="text/javascript">
     $(document).on('deviceready', function() {
+      
       var map = plugin.google.maps.Map.getMap($("#map_canvas")[0]);
       map.on("map_ready", function() {
         alert("MapReady!");
-        navigator.splashscreen.hide();
-      /*
-        var options = {
-          '10': 'images/m1.png',
-          '20': 'images/m2.png',
-          '50': 'images/m3.png',
-          '100': 'images/m4.png',
-          '200': 'images/m5.png'
-        };
-        
-        plugin.google.maps.experimental.MarkerCluster.createCluster(map, options, function(cluster) {
-          async.map(data.photos, function(info, next) {
-            next(null, {
-              'position': new plugin.google.maps.LatLng(info.lat, info.lng),
-              'photoData': info,
-              'icon': info.photo_file_url.replace("medium", "mini_square"),
-              'markerClick': onMarkerClicked
-            });
-          }, function(err, markers) {
-            cluster.addMarkers(markers);
-          });
-        });
-      */
-        
+      });
+      $("button").click(function() {
+        facebookConnectPlugin.login(["public_profile"],onSuccess, onFailure);
       });
     });
-    
-    function onMarkerClicked(marker) {
-      marker.showInfoWindow();
+    function onSuccess() {
+      alert("success");
+    }
+    function onFailure(message) {
+      alert(message);
     }
     </script>
     <style type="text/css">
@@ -63,6 +45,6 @@
     </style>
   </head>
   <body>
-    <div id="map_canvas" ></div>
+    <div id="map_canvas" ><button>Facebook login</button></div>
   </body>
 </html>

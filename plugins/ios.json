@@ -79,9 +79,28 @@
                             "count": 1
                         }
                     ],
-                    "CoreGraphics.framework": [
+                    "CoreGraphics.framework": [],
+                    "libsqlite3.dylib": [
                         {
                             "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "Social.framework": [
+                        {
+                            "xml": "true",
+                            "count": 1
+                        }
+                    ],
+                    "Accounts.framework": [
+                        {
+                            "xml": "true",
+                            "count": 1
+                        }
+                    ],
+                    "Security.framework": [
+                        {
+                            "xml": "true",
                             "count": 1
                         }
                     ]
@@ -115,7 +134,53 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"FacebookConnectPlugin\"><param name=\"ios-package\" value=\"FacebookConnectPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<plugin name=\"FacebookConnectPlugin\" value=\"FacebookConnectPlugin\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://m.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://graph.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://api.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://*.fbcdn.net\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://*.akamaihd.net\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "FacebookAppID": [
+                        {
+                            "xml": "<string>408354752554969</string>",
+                            "count": 1
+                        }
+                    ],
+                    "FacebookDisplayName": [
+                        {
+                            "xml": "<string>ScreenRewards-app</string>",
+                            "count": 1
+                        }
+                    ],
+                    "CFBundleURLTypes": [
+                        {
+                            "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>fb408354752554969</string></array></dict></array>",
                             "count": 1
                         }
                     ]
@@ -133,16 +198,15 @@
         "org.apache.cordova.console": {
             "PACKAGE_NAME": "com.example.myapp"
         },
-        "plugin.google.maps.markercluster": {
-            "PACKAGE_NAME": "com.example.myapp"
-        },
         "com.google.playservices": {
             "PACKAGE_NAME": "com.example.myapp"
         },
         "com.googlemaps.ios": {
             "PACKAGE_NAME": "com.example.myapp"
         },
-        "org.apache.cordova.splashscreen": {
+        "com.phonegap.plugins.facebookconnect": {
+            "APP_ID": "408354752554969",
+            "APP_NAME": "ScreenRewards-app",
             "PACKAGE_NAME": "com.example.myapp"
         }
     },
